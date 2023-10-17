@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,9 +8,9 @@
 body {
     background-color: #000;
     color: #fff;
-  }
+}
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,8 @@ body {
     padding-top: 60px;
     border-bottom: solid #33A8DB80 1px;
 }
-.logo{
+
+.logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +32,8 @@ body {
     border-radius: 50%;
     background-color: #00000033;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +42,7 @@ body {
     width: 50%;
 }
 
-.banner-content > h1{
+.banner-content>h1 {
     font-size: 2.2rem;
     text-transform: uppercase;
     color: transparent;
@@ -50,7 +52,7 @@ body {
     font-weight: 900;
 }
 
-.banner-content > p{
+.banner-content>p {
     font-weight: 100;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -59,7 +61,7 @@ body {
     font-weight: lighter;
 }
 
-.banner-content > button{
+.banner-content>button {
     margin-bottom: 100px;
     border: 2px solid #33A8DB;
     text-transform: uppercase;
@@ -72,19 +74,19 @@ body {
     cursor: pointer;
 }
 
-.banner-content > button:hover{
+.banner-content>button:hover {
     text-shadow: 3px 0px 10px #33A8DB;
     box-shadow: 0px 0px 10px #33A8DB;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-#course-content{
+#course-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,21 +94,21 @@ main{
     padding-top: 100px;
 }
 
-#course-content > h2{
+#course-content>h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
     color: #33A8DB;
     letter-spacing: 5px;
 }
 
-#course-content > p{
+#course-content>p {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 100;
     color: #fff;
 }
 
-.module{
+.module {
     border: 1px solid #33A8DB;
     box-shadow: inset -5px 7px 5px 0px #00000066;
     background-color: #252525;
@@ -115,11 +117,12 @@ main{
     border-radius: 50px;
     text-align: center;
 }
-.module:hover{
+
+.module:hover {
     box-shadow: inset 5px -7px 5px 0px #00000066;
 }
 
-#transform-world{
+#transform-world {
     display: flex;
     align-items: center;
     width: 100%;
@@ -135,12 +138,32 @@ main{
     background-size: cover;
 }
 
-#transform-world > p{
+#transform-world>p {
     font-size: 1.8rem;
     width: 170px;
     text-transform: lowercase;
     font-weight: bolder;
     margin-left: 198px;
     text-shadow: 4px 1px 1px #33A8DB;
-    
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    padding-bottom: 100px;
+}
+
+#professional-challenges>h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #33A8DB;
+    letter-spacing: 5px;
+}
+
+#professional-challenges>img {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
